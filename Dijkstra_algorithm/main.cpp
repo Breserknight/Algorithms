@@ -69,7 +69,7 @@ class Grid {
     public:
         Grid(long long n) {
             number_of_nodes = n;
-            grid = new linked_list[10];
+            grid = new linked_list[n];
 
             read_grid();
             // print();
